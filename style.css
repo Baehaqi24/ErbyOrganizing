@@ -116,6 +116,11 @@ nav {
     align-items: center;
 }
 
+.nav_container a h4 {
+    font-family: 'Arizonia', cursive;
+    font-size: 2rem;
+}
+
 nav button {
     display: none;
 }
@@ -153,8 +158,16 @@ header {
     height: 100%;
 }
 
+.header_container h2 {
+    text-align: center;
+}
+
 .header_left p {
     margin: 1rem 0 2.4rem;
+}
+
+.header_left a {
+    padding: 10px 10px;
 }
 
 /* Section */
@@ -187,6 +200,8 @@ header {
 
 h1, .line_categories {
     text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
 }
 
 .categories_container {
@@ -256,6 +271,11 @@ h1, .line_categories {
     justify-content: center;
 }
 
+.line-courses {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+}
+
 .course {
     background: var(--event-color);
     text-align: center;
@@ -294,6 +314,8 @@ h1, .line_categories {
 
 .karakter .line_karakter {
     margin-bottom: 3rem;
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
 }
 
 .karakter_container {
@@ -321,6 +343,11 @@ h1, .line_categories {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+}
+
+.line-faq {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
 }
 
 .faq {
@@ -362,6 +389,11 @@ h1, .line_categories {
 
 .testimonials {
     padding-top: 2rem;
+}
+
+.line-testimonials {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
 }
 
 .avatar {
@@ -491,8 +523,8 @@ h1, .line_categories {
     .nav_menu li a {
         background: var(--event-color);
         box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, 0.6);
-        width: 100%;
-        height: 100%;
+        width: 75%;
+        height: 75%;
         display: grid;
         place-items: center;
         border-radius: 35px;
