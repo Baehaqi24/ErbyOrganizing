@@ -170,6 +170,10 @@ header {
     padding: 10px 10px;
 }
 
+lottie-player {
+    margin-left: 5rem;
+}
+
 /* Section */
 .categories {
     background: white;
@@ -443,6 +447,11 @@ h1, .line_categories {
     margin-top: 2rem;
 }
 
+.line_p {
+    font-size: 8px;
+    text-align: left;
+}
+
 /* Resfonsive */
 @media screen and (max-width: 1024px) {
     .container {
@@ -609,6 +618,7 @@ h1, .line_categories {
     .header_left {
         margin-bottom: 1.5rem;
     }
+
 
     /* Categories */
     .categories_right {
