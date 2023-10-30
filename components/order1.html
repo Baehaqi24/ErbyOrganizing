@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Invitation</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <!-- Link Css -->
+  <link rel="icon" href="../logo erby organizing-modified.ico">
+  <link rel="stylesheet" href="./css/order.css">
+  <link rel="stylesheet" href="../style.css">
+  <!-- Verifikasi Apudi -->
+  <meta name="apudi-verification" content="a6e8ee7413f0cc3aaf91ecb1cea3c63555d9a773ce4fe9c98000767dc40ec178">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H3PVDR469D">
+  </script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-H3PVDR469D');
+  </script>   
+
+</head>
+<body class="bg-warning">
+  <div class="container">
+    <h1>Form Undangan Mempelai</h1>
+    <form id="orderForm">
+      <div class="form-group">
+        <h3>Data Nama Undangan Pesanan</h3>
+        <div class="row">
+          <div class="col">
+            <label for="input_undangan" class="form-label">Pilih Undangan</label>
+              <select class="form-control" id="input_undangan" class="form-select">
+                <option selected>Pilih Undangan yang di pesan</option>
+                <option>(Video) Minimalist 1</option>
+                <option>(Video) Minimalist 2</option>
+                <option>(Video) Minimalist 3</option>
+                <option>(Video) Minimalist 4</option>
+                <option>(Video) Minimalist 5</option>
+                <option>(Video) Minimalist 6</option>
+                <option>(Video) Minimalist 7</option>
+                <option>(Video) Elegant 1</option>
+                <option>(Video) Elegant 2</option>
+                <option>(Website) Demo 01</option>
+                <option>(Website) Demo 02</option>
+                <option>(Website) Demo 03</option>
+                <option>(Website) Demo 04</option>
+                <option>(Website) Demo 05</option>
+                <option>(Website) Demo 06</option>
+                <option>(Website) Demo 07</option>
+                <option>(Website) Demo 08</option>
+                <option>(Website) Demo 09</option>
+                <option>(Website) Demo 10</option>
+                <option>(Website) Demo 11</option>
+              </select>
+          </div>
+        </div> 
+      </div>
+      <!-- Data Mempelai Pria -->
+      <div class="form-group">
+        <h3>Data Mempelai Pria</h3>
+        <div class="row">
+          <div class="col">
+            <label for="name_pria">Nama Kepanjangan</label>
+            <input type="text" class="form-control" id="name_pria" required>
+          </div>
+          <div class="col">
+            <label for="panggilan_pria">Nama Panggilan</label>
+            <input type="text" class="form-control" id="panggilan_pria" required>
+          </div>
+        </div>
+        <div class="row pt-2 g-3">
+          <div class="col-md-4">
+            <label for="ayah_pria">Nama Ayah</label>
+            <input type="text" class="form-control" placeholder="Masukan Nama Ayah" name="ayah" id="ayah_pria">
+          </div>
+          <div class="col-md-4">
+            <label for="ibu_pria">Nama Ibu</label>
+            <input type="text" class="form-control" placeholder="Masukan Nama Ibu" name="ibu" id="ibu_pria">
+          </div>
+          <div class="col-md-4">
+            <label for="anak_pria">Anak Keberapa dalam keluarga</label>
+            <input type="text" class="form-control" placeholder="Contoh: anak ke 1 dari 3 bersaudara" name="anak" id="anak_pria">
+          </div>
+        </div>
+      </div>
+      <!-- Data Mempelai Wanita -->
+      <div class="form-group">
+        <h3>Data Mempelai Wanita</h3>
+        <div class="row">
+          <div class="col">
+            <label for="name_wanita">Nama Kepanjangan</label>
+            <input type="text" class="form-control" id="name_wanita" required>
+          </div>
+          <div class="col">
+            <label for="panggilan_wanita">Nama Panggilan</label>
+            <input type="text" class="form-control" id="panggilan_wanita" required>
+          </div>
+        </div>
+        <div class="row pt-2 g-3">
+          <div class="col-md-4">
+            <label for="ayah_wanita">Nama Ayah</label>
+            <input type="text" class="form-control" placeholder="Masukan Nama Ayah" name="ayah" id="ayah_wanita">
+          </div>
+          <div class="col-md-4">
+            <label for="ibu_wanita">Nama Ibu</label>
+            <input type="text" class="form-control" placeholder="Masukan Nama Ibu" name="ibu" id="ibu_wanita">
+          </div>
+          <div class="col-md-4">
+            <label for="anak_wanita">Anak Keberapa dalam keluarga</label>
+            <input type="text" class="form-control" placeholder="Contoh: anak ke 1 dari 3 bersaudara" name="anak" id="anak_wanita">
+          </div>
+        </div>
+      </div>
+      <!-- Data Akad Pernikahaan -->
+      <div class="form-group">
+        <h3>Data Akad Pernikahaan</h3>
+        <div class="row">
+          <div class="col">
+            <label for="date_akad">Hari & Tanggal Acara</label>
+            <input type="date" class="form-control" id="date_akad" required>
+          </div>
+          <div class="col">
+            <label for="time_akad">Hari & Tanggal Acara</label>
+            <input type="time" class="form-control" id="time_akad" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="name_akad">Tempat Acara</label>
+            <input type="text" class="form-control" id="name_akad" required>
+          </div>
+          <div class="col">
+            <label for="url_akad">Link Google Maps</label>
+            <input type="url" class="form-control" id="url_akad" required>
+          </div>
+        </div>
+      </div>
+      <!-- Data Resepsi Pernikahaan -->
+      <div class="form-group">
+        <h3>Data Resepsi Pernikahaan</h3>
+        <div class="row">
+          <div class="col">
+            <label for="date_resepsi">Hari & Tanggal Acara</label>
+            <input type="date" class="form-control" id="date_resepsi" required>
+          </div>
+          <div class="col">
+            <label for="time_resepsi">Hari & Tanggal Acara</label>
+            <input type="time" class="form-control" id="time_resepsi" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="name_resepsi">Tempat Acara</label>
+            <input type="text" class="form-control" id="name_resepsi" required>
+          </div>
+          <div class="col">
+            <label for="url_resepsi">Link Google Maps</label>
+            <input type="url" class="form-control" id="url_resepsi" required>
+          </div>
+        </div>
+      </div>
+      <!-- Data Pelengkap Lainnya -->
+      <div class="form-group">
+        <h3>Data Lainnya</h3>
+        <div class="row g-2">
+          <div class="col-md-6">
+            <label for="number_pria">No. Wa Mempelai Pria</label>
+            <input type="number" class="form-control" id="number_pria" required>
+          </div>
+          <div class="col-md-6">
+            <label for="url_pria">Masukan Link Ig Pria</label>
+            <input type="url" class="form-control" id="url_pria" required>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-md-6">
+            <label for="number_wanita">No. Wa Mempelai Wanita</label>
+            <input type="number" class="form-control" id="number_wanita" required>
+          </div>
+          <div class="col-md-6">
+            <label for="url_wanita">Masukan Link Ig Wanita</label>
+            <input type="url" class="form-control" id="url_wanita" required>
+          </div>
+        </div>
+      </div>
+
+        <button type="submit" class="btn btn-outline-success d-grid">Kirim Pesanan</button>
+    </form>
+  </div>
+
+  <!-- Footer & Verifikasi -->
+  <footer class="footer">
+    <div class="container footer_name">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <a href="https://apudi.id/layanan/erbyorganizing" rel="dofollow"><img src="https://apudi.id/wp-content/uploads/2023/01/apudi2.svg" /></a>
+            </div>
+          </div>
+        <h5 class="pt-3">Build With <span style="color:#e25555;">&#9829;</span> &copy <i>2022</i> <b>BaeCode Digital</b> <span style="color:#e25555;">&#9829;</span></h5>
+    </div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/formOrder1.js"></script>
+</body>
+</html>
