@@ -1,413 +1,535 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Link Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Lobster&family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" href="logo erby organizing-modified.ico">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arizonia&family=Lobster&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="logo erby organizing-modified.ico" />
+
     <!-- Link Cdn -->
-    <link rel="stylesheet" href="./assets/fontawesome 6/css/all.min.css">
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome 6/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <!-- Link Css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./components/css/Footer.css" />
 
     <!-- Verifikasi Apudi -->
-    <meta name="apudi-verification" content="a6e8ee7413f0cc3aaf91ecb1cea3c63555d9a773ce4fe9c98000767dc40ec178">
+    <meta
+      name="apudi-verification"
+      content="a6e8ee7413f0cc3aaf91ecb1cea3c63555d9a773ce4fe9c98000767dc40ec178"
+    />
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H3PVDR469D">
-    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-H3PVDR469D"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-                gtag('config', 'G-H3PVDR469D');
-    </script>   
+      gtag("config", "G-H3PVDR469D");
+    </script>
 
     <title>Erby Organizing App</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <!-- Navigation -->
-    <nav>
-        <div class="container nav_container">
-            <a href="index.html"><h4>Erby Organizing</h4></a>
-            <ul class="nav_menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="./components/Category.html">Category</a></li>
-                <li><a href="./components/About.html">About</a></li>
-                <li><a href="./components/Contact.html">Contact</a></li>
-            </ul>
-            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
-            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
-        </div>
+    <nav class="navbar navbar-expand fixed-bottom">
+      <ul class="navbar-nav nav-justified w-100">
+        <li class="nav-item active">
+          <a href="#" class="nav-link"
+            ><span>Home</span><i class="fas fa-igloo fa-3x"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"
+            ><span>Store</span><i class="fas fa-cart-plus fa-3x"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"
+            ><span>About</span><i class="fas fa-address-card fa-3x"></i><a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"
+            ><span>Contact</span><i class="fas fa-address-book fa-3x"></i
+          ></a>
+        </li>
+      </ul>
     </nav>
-    <!-- end Navbar -->
+    <!-- End Navigation -->
     <!-- Header -->
     <header>
-        <div class="container header_container">
-            <div class="header_left">
-                <h2>Selamat Datang Di Website kami</h2>
-                <p>Sebuah platform <b>Undangan digital</b> dengan varian template yang menarik & unik 😊, Ciptakan moment bahagia dengan pasangan di <b>Erby Organizing</b> 😉.</p>
-                <a href="components/Contact.html" class="btn btn-primary">Order Now</a>
-            </div>
-
-            <div class="header-right">
-                <div class="header_right">
-                    <div class="header_right-image">
-                        <img src="./assets/image/undraw_wedding_re_66hj.svg" alt="">
-                    </div>
-                </div>
-            </div>
+      <div class="container header_container">
+        <div class="header_left">
+          <h2>Selamat Datang Di Website kami</h2>
+          <p>
+            Sebuah platform <b>Undangan digital</b> dengan varian template yang
+            menarik & unik 😊, Ciptakan moment bahagia dengan pasangan di
+            <b>Erby Organizing</b> 😉.
+          </p>
+          <a href="components/Contact.html" class="btn btn-primary"
+            >Order Now</a
+          >
         </div>
+
+        <div class="header-right">
+          <div class="header_right">
+            <div class="header_right-image">
+              <img src="./assets/image/undraw_wedding_re_66hj.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- End Header -->
 
     <!-- Section -->
     <section class="categories">
-        <h1 class="line_categories">Category</h1>
-        <div class="container categories_container">
-           <div class="categories_left">
-            <img src="./assets/image/undraw_love_re_mwbq.svg" alt="">
-            <a href="components/Category.html" class="btn_category">Klik disini ya</a>
-           </div>
-           <div class="categories_right">
-                <article class="category">
-                    <span class="category_icon"><i class="fa-solid fa-mobile-screen-button"></i></span>
-                    <h5>Undangan Website</h5>
-                    <p>Undangan website memudahkan anda untuk membagikan kabar bahagia pernikahan anda, kepada kerabat,teman & keluarga dimanapun dan kapanpun 🥰</p>
-                </article>
-
-                <article class="category">
-                    <span class="category_icon"><i class="fa-solid fa-play"></i></span>
-                    <h5>Undangan Video</h5>
-                    <p>Undangan video memudahkan anda untuk membagikan kabar bahagia pernikahan anda, kepada kerabat,teman & keluarga dimanapun dan kapanpun 🥰</p>
-                </article>
-           </div>
+      <h1 class="line_categories">Category</h1>
+      <div class="container categories_container">
+        <div class="categories_left">
+          <img src="./assets/image/undraw_love_re_mwbq.svg" alt="" />
+          <a href="components/Category.html" class="btn_category"
+            >Klik disini ya</a
+          >
         </div>
+        <div class="categories_right">
+          <article class="category">
+            <span class="category_icon"
+              ><i class="fa-solid fa-mobile-screen-button"></i
+            ></span>
+            <h5>Undangan Website</h5>
+            <p>
+              Undangan website memudahkan anda untuk membagikan kabar bahagia
+              pernikahan anda, kepada kerabat,teman & keluarga dimanapun dan
+              kapanpun 🥰
+            </p>
+          </article>
+
+          <article class="category">
+            <span class="category_icon"><i class="fa-solid fa-play"></i></span>
+            <h5>Undangan Video</h5>
+            <p>
+              Undangan video memudahkan anda untuk membagikan kabar bahagia
+              pernikahan anda, kepada kerabat,teman & keluarga dimanapun dan
+              kapanpun 🥰
+            </p>
+          </article>
+        </div>
+      </div>
     </section>
     <!-- End Section -->
 
-      <!-- Content-Favorite -->
+    <!-- Content-Favorite -->
     <section class="courses">
-        <h2 class="line-courses">Undangan Favorite</h2>
-        <div class="container courses_container">
-            <article class="course">
-                <div class="course_image">
-                    <iframe width="250" height="300" src="https://www.youtube.com/embed/U0f4_YipRzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Video Minimalist 1</h4>
-                    <p>Harga : 35K</p>
-                    <p>Bersifat Permanen</p>
-                    <a href="./components/order.html" class="btn_category">
-                        Pesan Sekarang
-                    </a>
-                </div>
-            </article>
+      <h2 class="line-courses">Undangan Favorite</h2>
+      <div class="container courses_container">
+        <!-- Undangan Website -->
 
-            <article class="course">
-                <div class="course_image">
-                    <iframe width="250" height="300" src="https://www.youtube.com/embed/ie_4qXZIj4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Video Minimalist 2</h4>
-                    <p>Harga : 35K</p>
-                    <p>Bersifat Permanen</p>
-                    <a href="./components/order1.html" class="btn_category">
-                    Pesan Sekarang
-                    </a>
-                </div>
-            </article>
+        <article class="course">
+          <div class="course_image">
+            <img src="./assets/image/Web Wedding/Demo ERUD 1.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 1</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-01/" class="buy"
+                >Preview</a
+              >
+              <a href="./components/order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
 
-            <article class="course">
-                <div class="course_image">
-                    <iframe width="250" height="300" src="https://www.youtube.com/embed/ZDfjUa25Okw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Video Minimalist 3</h4>
-                    <p>Harga : 35K</p>
-                    <p>Bersifat Permanen</p>
-                    <a href="./components/order.html" class="btn_category">
-                        Pesan Sekarang
-                        </a>
-                </div>
-            </article>
+        <article class="course">
+          <div class="course_image">
+            <img src="./assets/image/Web Wedding/Demo ERUD 2.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 2</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-02/" class="buy"
+                >Preview</a
+              >
+              <a href="./components/order.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
 
-            <article class="course">
-                <div class="course_image">
-                    <iframe width="250" height="300" src="https://www.youtube.com/embed/kX5p0T2e1zc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Video Minimalist 4</h4>
-                    <p>Harga : 35K</p>
-                    <p>Bersifat Permanen</p>
-                    <a href="./components/order1.html" class="btn_category">
-                        Pesan Sekarang
-                        </a>
-                </div>
-            </article>
+        <article class="course">
+          <div class="course_image">
+            <img src="./assets/image/Web Wedding/Demo ERUD 3.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 03</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-03/" class="buy"
+                >Preview</a
+              >
+              <a href="./components/order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
 
-            <!-- Undangan Website -->
+        <article class="course">
+          <div class="course_image">
+            <img src="./assets/image/Web Wedding/Demo ERUD 4.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 04</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-04/" class="buy"
+                >Preview</a
+              >
+              <a href="./components/order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
 
-            <article class="course">
-                <div class="course_image">
-                    <img src="./assets/image/Web Wedding/demo 01.png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 01</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-01/" class="buy">Preview</a>
-                        <a href="./components/order1.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
+        <!-- Line 2 -->
 
-            <article class="course">
-                <div class="course_image">
-                    <img src="./assets/image/Web Wedding/Demo 02.png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 02</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-02/" class="buy">Preview</a>
-                        <a href="./components/order.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
+        <article class="course">
+          <div class="course_image">
+            <img src="./assets/image/Web Wedding/Demo ERUD 5.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 05</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-05/" class="buy"
+                >Preview</a
+              >
+              <a href="./components/order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
 
-            <article class="course">
-                <div class="course_image">
-                    <img src="./assets/image/Web Wedding/Demo 03 (Web).png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 03</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-03/" class="buy">Preview</a>
-                        <a href="./components/order1.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
+        <article class="course">
+          <div class="course_image">
+            <img src="./assets/image/Web Wedding/Demo ERUD 6.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 06</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-06/" class="buy"
+                >Preview</a
+              >
+              <a href="./components/order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
 
-            <article class="course">
-                <div class="course_image">
-                    <img src="./assets/image/Web Wedding/Demo 04 (web).png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 04</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-04/" class="buy">Preview</a>
-                        <a href="./components/order1.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
-        </div>
-        <a href="./components/Category.html" class="all"><p>Lihat lebih banyak</p></a>
+        <article class="course">
+          <div class="course_image">
+            <img src="./assets/image/Web Wedding/Demo ERUD 7.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 07</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-07/" class="buy"
+                >Preview</a
+              >
+              <a href="./components/order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="./assets/image/Web Wedding/Demo ERUD 8.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 08</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-08/" class="buy"
+                >Preview</a
+              >
+              <a href="./components/order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <a
+        href="https://baehaqi24.github.io/ErbyOrganizing/components/Category.html"
+        class="all"
+        ><p>Lihat Selengkapnya</p></a
+      >
     </section>
-    
+
     <!-- End Content-Favorite -->
-    
+
     <!-- FAQ -->
     <section class="faqs">
-        <h2 class="line-faq">Frequently Asked Questions</h2>
-        <div class="container faqs_container">
-            <article class="faq">
-                <div class="faq_icon"><i class="fa-solid fa-square-plus"></i></div>
-                <div class="question_answer">
-                    <h4>Produk Apa ini ?</h4>
-                    <p>
-                        ErbyOrganizing adalah Sebuah platfrom pembelian undangan digital yang sangat menarik, dan anda dapat mengaturnya sesuai dengan kebutuhan anda.
-                    </p>
-                </div>
-            </article>
+      <h2 class="line-faq">Frequently Asked Questions</h2>
+      <div class="container faqs_container">
+        <article class="faq">
+          <div class="faq_icon"><i class="fa-solid fa-square-plus"></i></div>
+          <div class="question_answer">
+            <h4>Produk Apa ini ?</h4>
+            <p>
+              ErbyOrganizing adalah Sebuah platfrom pembelian undangan digital
+              yang sangat menarik, dan anda dapat mengaturnya sesuai dengan
+              kebutuhan anda.
+            </p>
+          </div>
+        </article>
 
-            <article class="faq">
-                <div class="faq_icon"><i class="fa-solid fa-square-plus"></i></div>
-                <div class="question_answer">
-                    <h4>Bolehkan Refund ?</h4>
-                    <p>
-                        Semua file yang anda dapat sesuai dengan preview / contoh , Tidak ada refund, pengembalian dana dan tidak dapat ditukar dengan contoh template ErbyOrganizing lain.
-                    </p>
-                </div>
-            </article>
+        <article class="faq">
+          <div class="faq_icon"><i class="fa-solid fa-square-plus"></i></div>
+          <div class="question_answer">
+            <h4>Bolehkan Refund ?</h4>
+            <p>
+              Semua file yang anda dapat sesuai dengan preview / contoh , Tidak
+              ada refund, pengembalian dana dan tidak dapat ditukar dengan
+              contoh template ErbyOrganizing lain.
+            </p>
+          </div>
+        </article>
 
-                <article class="faq">
-                    <div class="faq_icon"><i class="fa-solid fa-square-plus"></i></div>
-                    <div class="question_answer">
-                        <h4>Apa itu Website Wedding ?</h4>
-                        <p>
-                            Sebuah undangan digital yang kekinian, dan mudah untuk di share ke teman" atau ke kerabat anda, di ErbyOrganizing Sudah banyak template yang menarik untuk anda dan pasangan anda.
-                        </p>
-                    </div>
-                </article>
-        </div>
+        <article class="faq">
+          <div class="faq_icon"><i class="fa-solid fa-square-plus"></i></div>
+          <div class="question_answer">
+            <h4>Apa itu Website Wedding ?</h4>
+            <p>
+              Sebuah undangan digital yang kekinian, dan mudah untuk di share ke
+              teman" atau ke kerabat anda, di ErbyOrganizing Sudah banyak
+              template yang menarik untuk anda dan pasangan anda.
+            </p>
+          </div>
+        </article>
+
+        <article class="faq">
+          <div class="faq_icon"><i class="fa-solid fa-square-plus"></i></div>
+          <div class="question_answer">
+            <h4>Harga Dan Paket yang Tersedia ?</h4>
+            <p>
+              Di ErbyOrganizing sudah Tersedia harga dan paket sekaligus include
+              yang nanti anda peroleh. Berikut listnya :
+            </p>
+            <p><i class="far fa-thumbs-up"></i> Semua Fitur Undangan</p>
+            <p><i class="far fa-thumbs-up"></i> Masa Aktif 2 Bulan</p>
+            <p><i class="far fa-thumbs-up"></i> Bonus Undangan JPEG</p>
+            <p><i class="far fa-thumbs-up"></i> Request Musik Undangan</p>
+          </div>
+        </article>
+      </div>
     </section>
     <!-- End Faqs -->
 
-     <!-- Section Karakter  -->
+    <!-- Section Karakter  -->
     <section class="karakter">
-        <h2 class="line_karakter">Karakter Animation & Indonesian Adat Wedding </h2>
-        <div class="container karakter_container">
-           <div class="karakter_left">
-            <img src="./assets/image/karakter.jpg" alt="">
-           </div>
-           <div class="karakter_right">
-                <img src="./assets/image/karakter 2.jpg" alt="">
-           </div>
+      <h2 class="line_karakter">
+        Karakter Animation & Indonesian Adat Wedding
+      </h2>
+      <div class="container karakter_container">
+        <div class="karakter_left">
+          <img src="./assets/image/karakter.jpg" alt="" />
         </div>
+        <div class="karakter_right">
+          <img src="./assets/image/karakter 2.jpg" alt="" />
+        </div>
+      </div>
     </section>
     <!-- End Section Karakter -->
 
     <!-- Section Testimonials -->
     <section class="container testimonials_container mySwiper">
-        <h2 class="line-testimonials">Customers' Testimonials</h2>
-        <div class="swiper-wrapper">
-            <article class="testimonials swiper-slide">
-                <div class="avatar">
-                    <img src="./assets/image/bareng ega 2.jpeg" alt="">                        
-                </div>
-                <div class="testimonials_info">
-                    <h5>Ega Oktavia</h5>
-                    <small>Customers</small>
-                </div>
-                <div class="testimonials_body">
-                    <p>
-                        Sangat Menarik Sekali, :)
-                    </p>
-                </div>
-            </article>
+      <h2 class="line-testimonials">Customers' Testimonials</h2>
+      <div class="swiper-wrapper">
+        <article class="testimonials swiper-slide">
+          <div class="avatar">
+            <img src="./assets/image/bareng ega 2.jpeg" alt="" />
+          </div>
+          <div class="testimonials_info">
+            <h5>Ega Oktavia</h5>
+            <small>Customers</small>
+          </div>
+          <div class="testimonials_body">
+            <p>Sangat Menarik Sekali, :)</p>
+          </div>
+        </article>
 
-            <article class="testimonials swiper-slide">
-                <div class="avatar">
-                    <img src="./assets/image/poto saya.png" alt="">                        
-                </div>
-                <div class="testimonials_info">
-                    <h5>Robby baehaqi</h5>
-                    <small>Customers</small>
-                </div>
-                <div class="testimonials_body">
-                    <p>
-                        Sangat Menarik Sekali, Saya sangat suka:)
-                    </p>
-                </div>
-            </article>
+        <article class="testimonials swiper-slide">
+          <div class="avatar">
+            <img src="./assets/image/poto saya.png" alt="" />
+          </div>
+          <div class="testimonials_info">
+            <h5>Robby baehaqi</h5>
+            <small>Customers</small>
+          </div>
+          <div class="testimonials_body">
+            <p>Sangat Menarik Sekali, Saya sangat suka:)</p>
+          </div>
+        </article>
 
-            <article class="testimonials swiper-slide">
-                <div class="avatar">
-                    <img src="./assets/image/regi.jpeg" alt="">                        
-                </div>
-                <div class="testimonials_info">
-                    <h5>Regi Agustiawan</h5>
-                    <small>Customers</small>
-                </div>
-                <div class="testimonials_body">
-                    <p>
-                        Fast Respon, dan Template undangan nya menarik 😊
-                    </p>
-                </div>
-            </article>
+        <article class="testimonials swiper-slide">
+          <div class="avatar">
+            <img src="./assets/image/wahyu & nisa 3.jpg" alt="" />
+          </div>
+          <div class="testimonials_info">
+            <h5>Wahyu & Sriwahyuni</h5>
+            <small>Customers</small>
+          </div>
+          <div class="testimonials_body">
+            <p>Fast Respon, dan Template undangan nya menarik 😊</p>
+          </div>
+        </article>
 
-            <article class="testimonials swiper-slide">
-                <div class="avatar">
-                    <img src="./assets/image/Aef.jpeg" alt="">                        
-                </div>
-                <div class="testimonials_info">
-                    <h5>Aef Hidayat</h5>
-                    <small>Customers</small>
-                </div>
-                <div class="testimonials_body">
-                    <p>
-                        Harganya sangat murah, template nya juga bagus banget 
-                    </p>
-                </div>
-            </article>
+        <article class="testimonials swiper-slide">
+          <div class="avatar">
+            <img src="./assets/image/IMG_0478.JPG" alt="" />
+          </div>
+          <div class="testimonials_info">
+            <h5>Iza & Kia</h5>
+            <small>Customers</small>
+          </div>
+          <div class="testimonials_body">
+            <p>Harganya sangat murah, template nya juga bagus banget</p>
+          </div>
+        </article>
 
-            <article class="testimonials swiper-slide">
-                <div class="avatar">
-                    <img src="./assets/image/Aldy.jpeg" alt="">                        
-                </div>
-                <div class="testimonials_info">
-                    <h5>Aldy</h5>
-                    <small>Customers</small>
-                </div>
-                <div class="testimonials_body">
-                    <p>
-                        Mantap Poll dehh Pokonye 😉 
-                    </p>
-                </div>
-            </article>
+        <article class="testimonials swiper-slide">
+          <div class="avatar">
+            <img src="./assets/image/Aldy.jpeg" alt="" />
+          </div>
+          <div class="testimonials_info">
+            <h5>Aldy</h5>
+            <small>Customers</small>
+          </div>
+          <div class="testimonials_body">
+            <p>Mantap Poll dehh Pokonye 😉</p>
+          </div>
+        </article>
 
-            <article class="testimonials swiper-slide">
-                <div class="avatar">
-                    <img src="./assets/image/Fendi.jpeg" alt="">                        
-                </div>
-                <div class="testimonials_info">
-                    <h5>Fendi Irfan Maulana</h5>
-                    <small>Customers</small>
-                </div>
-                <div class="testimonials_body">
-                    <p>
-                        Owner nya Fast Respon banget di bantu dengan baik dan Hasil nya menarik banget
-                    </p>
-                </div>
-            </article>
+        <article class="testimonials swiper-slide">
+          <div class="avatar">
+            <img src="./assets/image/Fendi.jpeg" alt="" />
+          </div>
+          <div class="testimonials_info">
+            <h5>Fendi Irfan Maulana</h5>
+            <small>Customers</small>
+          </div>
+          <div class="testimonials_body">
+            <p>
+              Owner nya Fast Respon banget di bantu dengan baik dan Hasil nya
+              menarik banget
+            </p>
+          </div>
+        </article>
 
-            <article class="testimonials swiper-slide">
-                <div class="avatar">
-                    <img src="./assets/image/hari & armelani.jpg" alt="">                        
-                </div>
-                <div class="testimonials_info">
-                    <h5>Fendi Irfan Maulana</h5>
-                    <small>Customers</small>
-                </div>
-                <div class="testimonials_body">
-                    <p>
-                        Pengerjaan nya cepet banget, dan template nya super kece banget banyak juga. di bantu sampe tuntas lagi sama owner nya, Rekomend banget dehh 😊
-                    </p>
-                </div>
-            </article>
-        </div>
-        <div class="swiper-pagination"></div>
+        <article class="testimonials swiper-slide">
+          <div class="avatar">
+            <img src="./assets/image/hari & armelani.jpg" alt="" />
+          </div>
+          <div class="testimonials_info">
+            <h5>Fendi Irfan Maulana</h5>
+            <small>Customers</small>
+          </div>
+          <div class="testimonials_body">
+            <p>
+              Pengerjaan nya cepet banget, dan template nya super kece banget
+              banyak juga. di bantu sampe tuntas lagi sama owner nya, Rekomend
+              banget dehh 😊
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
     </section>
     <!-- End Testimonials -->
 
-    <!-- Verifikasi Apudi -->
-    <div class="text-center">
-        
-      </div>
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer_name">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center">
-                    <a href="https://apudi.id/layanan/erbyorganizing" rel="dofollow"><img src="https://apudi.id/wp-content/uploads/2023/01/apudi2.svg" /></a>
-                </div>
-              </div>
-            <h5 class="pt-3">Build With <span style="color:#e25555;">&#9829;</span> &copy <i>2022</i> <b>BaeCode Digital</b> <span style="color:#e25555;">&#9829;</span></h5>
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3>Erby <span>Organizing</span></h3>
+
+        <p class="footer-links">
+          <a href="index.html">Home</a>
+          |
+          <a href="./components/Category.html">Category</a>
+          |
+          <a href="./components/About.html">About</a>
+          |
+          <a href="./components/Contact.html">Contact</a>
+        </p>
+
+        <p class="footer-company-name">
+          Copyright © 2023 <strong>Erby Lintas Inovasi</strong> All rights
+          reserved
+        </p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fas fa-map-marker-alt"></i>
+          <p><span>Subang</span> Jawa barat</p>
         </div>
+        <div>
+          <i class="fa-solid fa-square-phone"></i>
+          <p>Admin 1 : 085695620052</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <p>
+            <a href="mailto:Robbybaehaqi8@gmail.com"></a>Robbybaehaqi8@gmail.com
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>Tentang Kami</span>
+          <strong>ErbyOrganizing</strong> Platform Undangan Digital dengan
+          varian template yang menarik & unik 😊, Ciptakan moment bahagia dengan
+          pasangan di <strong>ErbyOrganizing</strong>
+        </p>
+        <div class="footer-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="https://apudi.id/layanan/erbyorganizing"
+            ><i class="fas fa-clipboard-check"></i
+          ></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="https://youtube.com/@ErbyOrganizing?si=kFeSEGoXJe0kFX9S"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+      </div>
     </footer>
     <!-- Link Js -->
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
+      var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
         spaceBetween: 30,
         pagination: {
@@ -416,11 +538,11 @@
         },
         // Ukuran Window 600px
         breakpoints: {
-            600: {
-                slidesPerView: 2,
-            }
-        }
+          600: {
+            slidesPerView: 2,
+          },
+        },
       });
     </script>
-</body>
+  </body>
 </html>

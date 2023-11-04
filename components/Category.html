@@ -1,402 +1,553 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Link Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Lobster&family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" href="../logo erby organizing-modified.ico">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arizonia&family=Lobster&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../logo erby organizing-modified.ico" />
+
     <!-- Link Cdn -->
-    <link rel="stylesheet" href="../assets/fontawesome 6/css/all.min.css">
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome 6/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <!-- Link Css -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./css/Footer.css" />
     <!-- <link rel="stylesheet" href="./css/About.css"> -->
 
     <!-- Verifikasi Apudi -->
-    <meta name="apudi-verification" content="a6e8ee7413f0cc3aaf91ecb1cea3c63555d9a773ce4fe9c98000767dc40ec178">
+    <meta
+      name="apudi-verification"
+      content="a6e8ee7413f0cc3aaf91ecb1cea3c63555d9a773ce4fe9c98000767dc40ec178"
+    />
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H3PVDR469D">
-    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-H3PVDR469D"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-                gtag('config', 'G-H3PVDR469D');
-    </script>   
+      gtag("config", "G-H3PVDR469D");
+    </script>
 
     <title>Erby Organizing App</title>
 
     <style>
-        .courses {
-            margin-top: 1rem;
-        }
+      .courses {
+        margin-top: 1rem;
+      }
 
-        .u-web {
-            margin-bottom: 15px;
-        }
+      .u-web {
+        margin-bottom: 15px;
+      }
     </style>
-</head>
-<body>
-    
+  </head>
+  <body>
     <!-- Navigation -->
-    <nav>
-        <div class="container nav_container">
-            <a href="../index.html"><h4>Erby Organizing</h4></a>
-            <ul class="nav_menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./Category.html">Category</a></li>
-                <li><a href="./About.html">About</a></li>
-                <li><a href="./Contact.html">Contact</a></li>
-            </ul>
-            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
-            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
-        </div>
+    <nav class="navbar navbar-expand navbar-dark fixed-bottom">
+      <ul class="navbar-nav nav-justified w-100">
+        <li class="nav-item">
+          <a href="#" class="nav-link active"
+            ><i class="fas fa-igloo fa-4x"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"
+            ><i class="fas fa-cart-plus fa-4x"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"
+            ><i class="fas fa-address-card fa-4x"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link"
+            ><i class="fas fa-address-book fa-4x"></i
+          ></a>
+        </li>
+      </ul>
     </nav>
     <!-- End Navigation -->
-    
+
     <!-- Content-Favorite -->
     <section class="courses">
-        <h2 class="line-courses">Undangan Video</h2>
-        <div class="container courses_container">
-            <article class="course">
-                <div class="course_image">
-                    <iframe width="250" height="300" src="https://www.youtube.com/embed/U0f4_YipRzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="course_info">
-                    <small class="line_p">line 1</small>
-                    <h4>Undangan Video Minimalist 1</h4>
-                    <p>Harga : 35K</p>
-                    <p>Bersifat Permanen</p>
-                    <a href="./order.html" class="btn_category">
-                        Pesan Sekarang
-                    </a>
-                </div>
-            </article>
+      <h2 class="line-courses">Undangan</h2>
+      <div class="container courses_container">
+        <!-- Undangan Website -->
 
-            <article class="course">
-                <div class="course_image">
-                    <iframe width="250" height="300" src="https://www.youtube.com/embed/ie_4qXZIj4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="course_info">
-                    <small class="line_p">line 1</small>
-                    <h4>Undangan Video Minimalist 2</h4>
-                    <p>Harga : 35K</p>
-                    <p>Bersifat Permanen</p>
-                    <a href="./order1.html" class="btn_category">
-                    Pesan Sekarang
-                    </a>
-                </div>
-            </article>
-
-            <article class="course">
-                <div class="course_image">
-                    <iframe width="250" height="300" src="https://www.youtube.com/embed/ZDfjUa25Okw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="course_info">
-                    <small class="line_p">line 1</small>
-                    <h4>Undangan Video Minimalist 3</h4>
-                    <p>Harga : 35K</p>
-                    <p>Bersifat Permanen</p>
-                    <a href="./order.html" class="btn_category">
-                        Pesan Sekarang
-                        </a>
-                </div>
-            </article>
-
-            <article class="course">
-                <div class="course_image">
-                    <iframe width="250" height="300" src="https://www.youtube.com/embed/kX5p0T2e1zc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="course_info">
-                    <small class="line_p">line 1</small>
-                    <h4>Undangan Video Minimalist 4</h4>
-                    <p>Harga : 35K</p>
-                    <p>Bersifat Permanen</p>
-                    <a href="./order1.html" class="btn_category">
-                        Pesan Sekarang
-                        </a>
-                </div>
-            </article>
-            <!-- Garis -->
-            <article class="course">
-                <div class="course_image">
-                    <iframe width="250" height="300" src="https://www.youtube.com/embed/yBCzIzdmb6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="course_info">
-                    <small class="line_p">line 2</small>
-                    <h4>Undangan Video Minimalist 5</h4>
-                    <p>Harga : 35K</p>
-                    <p>Bersifat Permanen</p>
-                    <a href="./order.html" class="btn_category">
-                        Pesan Sekarang
-                    </a>
-                </div>
-            </article>
-
-            <article class="course">
-                <div class="course_image">
-                    <iframe width="250" height="300" src="https://www.youtube.com/embed/nQjitRtLTP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="course_info">
-                    <small class="line_p">line 2</small>
-                    <h4>Undangan Video Minimalist 6</h4>
-                    <p>Harga : 35K</p>
-                    <p>Bersifat Permanen</p>
-                    <a href="./order1.html" class="btn_category">
-                        Pesan Sekarang
-                    </a>
-                </div>
-            </article>
-
-            <article class="course">
-                <div class="course_image">
-                    <iframe width="250" height="300" src="https://www.youtube.com/embed/eYOsZUCVjuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="course_info">
-                    <small class="line_p">line 2</small>
-                    <h4>Undangan Video Minimalist 7</h4>
-                    <p>Harga : 35K</p>
-                    <p>Bersifat Permanen</p>
-                    <a href="./order.html" class="btn_category">
-                        Pesan Sekarang
-                    </a>
-                </div>
-            </article>
-
-            <article class="course">
-                <div class="course_image">
-                    <iframe width="250" height="300" src="https://www.youtube.com/embed/DDi3a-ImDos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="course_info">
-                    <small class="line_p">line 2</small>
-                    <h4>Undangan Video Elegant 1</h4>
-                    <p>Harga : 35K</p>
-                    <p>Bersifat Permanen</p>
-                    <a href="./order1.html" class="btn_category">
-                        Pesan Sekarang
-                    </a>
-                </div>
-            </article>
-
-            <!-- Garis -->
-            <article class="course">
-                <div class="course_image">
-                    <video width="250" controls>
-                        <source src="../assets/video/Elegant 2.mp4" type="video/webm">
-                    </video>
-                </div>
-                <div class="course_info">
-                    <small class="line_p">line 3</small>
-                    <h4>Undangan Video Elegant 2</h4>
-                    <p>Harga : 35K</p>
-                    <p>Bersifat Permanen</p>
-                    <a href="./order.html" class="btn_category">
-                        Pesan Sekarang
-                    </a>
-                </div>
-            </article>
-        </div>
-    </section>
-    <!-- End Content-Favorite -->
-
-    <!-- Item Website -->
-    <section class="u-web">
-        <h2 class="line-courses">Undangan Website</h2>
-        <div class="container courses_container">
-            <article class="course">
-                <div class="course_image">
-                    <img src="../assets/image/Web Wedding/demo 01.png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 01</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-01/" class="buy">Preview</a>
-                        <a href="./order1.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="course">
-                <div class="course_image">
-                    <img src="../assets/image/Web Wedding/Demo 02.png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 02</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-02/" class="buy">Preview</a>
-                        <a href="./order.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="course">
-                <div class="course_image">
-                    <img src="../assets/image/Web Wedding/Demo 03 (Web).png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 03</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-03/" class="buy">Preview</a>
-                        <a href="./order1.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="course">
-                <div class="course_image">
-                    <img src="../assets/image/Web Wedding/Demo 04 (web).png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 04</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-04/" class="buy">Preview</a>
-                        <a href="./order.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Line 2 -->
-            <article class="course">
-                <div class="course_image">
-                    <img src="../assets/image/Web Wedding/Demo 05 (Web).png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 05</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-05/" class="buy">Preview</a>
-                        <a href="./order1.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="course">
-                <div class="course_image">
-                    <img src="../assets/image/Web Wedding/Demo 06 (Web).png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 06</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-06/" class="buy">Preview</a>
-                        <a href="./order.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="course">
-                <div class="course_image">
-                    <img src="../assets/image/Web Wedding/Demo 07 (Web).png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 07</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-07/" class="buy">Preview</a>
-                        <a href="./order1.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="course">
-                <div class="course_image">
-                    <img src="../assets/image/Web Wedding/Demo 08 (Web).png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 08</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-08/" class="buy">Preview</a>
-                        <a href="./order.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Line 3 -->
-            <article class="course">
-                <div class="course_image">
-                    <img src="../assets/image/Web Wedding/Demo 09 (Web).png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 09</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-09/" class="buy">Preview</a>
-                        <a href="./order1.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="course">
-                <div class="course_image">
-                    <img src="../assets/image/Web Wedding/Demo 10 (Web).png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 10</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-10/" class="buy">Preview</a>
-                        <a href="./order.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="course">
-                <div class="course_image">
-                    <img src="../assets/image/Web Wedding/Demo 11 (Web).png" alt="">
-                </div>
-                <div class="course_info">
-                    <h4>Undangan Website Demo 11</h4>
-                    <p>Harga : 75K</p>
-                    <span>12 Bulan</span>    
-                    <div class="buttons">
-                        <a href="https://demo1.erbyorganizing.com/demo-11/" class="buy">Preview</a>
-                        <a href="./order1.html" class="cart">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </article>
-        </div>
-    </section>
-
-
-<!-- Footer & Verifikasi -->
-<footer class="footer">
-    <div class="container footer_name">
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <a href="https://apudi.id/layanan/erbyorganizing" rel="dofollow"><img src="https://apudi.id/wp-content/uploads/2023/01/apudi2.svg" /></a>
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 1.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 1</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-01/" class="buy"
+                >Preview</a
+              >
+              <a href="order.html" class="cart">Pesan Sekarang</a>
             </div>
           </div>
-        <h5 class="pt-3">Build With <span style="color:#e25555;">&#9829;</span> &copy <i>2022</i> <b>BaeCode Digital</b> <span style="color:#e25555;">&#9829;</span></h5>
-    </div>
-</footer>
+        </article>
 
-<!-- Link Js -->
-<script src="../script.js"></script>
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 2.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 2</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-02/" class="buy"
+                >Preview</a
+              >
+              <a href="order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
 
-</body>
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 3.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 03</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-03/" class="buy"
+                >Preview</a
+              >
+              <a href="order.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 4.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 04</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-04/" class="buy"
+                >Preview</a
+              >
+              <a href="order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Line 2 -->
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 5.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 05</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-05/" class="buy"
+                >Preview</a
+              >
+              <a href="order.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 6.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 06</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-06/" class="buy"
+                >Preview</a
+              >
+              <a href="order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 7.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 07</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-07/" class="buy"
+                >Preview</a
+              >
+              <a href="order.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 8.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 08</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-08/" class="buy"
+                >Preview</a
+              >
+              <a href="order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Line 3 -->
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 9.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 09</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-09/" class="buy"
+                >Preview</a
+              >
+              <a href="order.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 10.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 10</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-10/" class="buy"
+                >Preview</a
+              >
+              <a href="order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 11.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 11</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-11/" class="buy"
+                >Preview</a
+              >
+              <a href="order.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 12.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 12</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-12/" class="buy"
+                >Preview</a
+              >
+              <a href="order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Line 4 -->
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 13.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 13</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-13/" class="buy"
+                >Preview</a
+              >
+              <a href="order.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 14.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 14</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-14/" class="buy"
+                >Preview</a
+              >
+              <a href="order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 15.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 15</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-15/" class="buy"
+                >Preview</a
+              >
+              <a href="order.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 16.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 16</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-16/" class="buy"
+                >Preview</a
+              >
+              <a href="order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 17.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 17</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-17/" class="buy"
+                >Preview</a
+              >
+              <a href="order.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 18.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 18</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-18/" class="buy"
+                >Preview</a
+              >
+              <a href="order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 19.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 19</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-19/" class="buy"
+                >Preview</a
+              >
+              <a href="order.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 20.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 20</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-20/" class="buy"
+                >Preview</a
+              >
+              <a href="order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Line 5 -->
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 21.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 21</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-21/" class="buy"
+                >Preview</a
+              >
+              <a href="order.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 22.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 22</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-22/" class="buy"
+                >Preview</a
+              >
+              <a href="order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 23.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 23</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-23/" class="buy"
+                >Preview</a
+              >
+              <a href="order.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course_image">
+            <img src="../assets/image/Web Wedding/Demo ERUD 24.png" alt="" />
+          </div>
+          <div class="course_info">
+            <h6>Undangan Website Demo ERUD 24</h6>
+            <p>Harga : 120K</p>
+            <div class="buttons">
+              <a href="https://weddingpress.co.id/section/demo-24/" class="buy"
+                >Preview</a
+              >
+              <a href="order1.html" class="cart">Pesan Sekarang</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Footer & Verifikasi -->
+    <!-- Footer -->
+    <footer class="footer-distributed">
+      <div class="footer-left pb-5">
+        <h3>Erby <span>Organizing</span></h3>
+
+        <p class="footer-links pb-5">
+          <a href="index.html">Home</a>
+          |
+          <a href="./components/Category.html">Category</a>
+          |
+          <a href="./components/About.html">About</a>
+          |
+          <a href="./components/Contact.html">Contact</a>
+        </p>
+
+        <p class="footer-company-name">
+          Copyright © 2023 <strong>Erby Lintas Inovasi</strong> All rights
+          reserved
+        </p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fas fa-map-marker-alt"></i>
+          <p><span>Subang</span> Jawa barat</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-square-phone"></i>
+          <p>Admin 1 : 085695620052</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <p>
+            <a href="mailto:Robbybaehaqi8@gmail.com"></a>Robbybaehaqi8@gmail.com
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>Tentang Kami</span>
+          <strong>ErbyOrganizing</strong> Platform Undangan Digital dengan
+          varian template yang menarik & unik 😊, Ciptakan moment bahagia dengan
+          pasangan di <strong>ErbyOrganizing</strong>
+        </p>
+        <div class="footer-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="https://apudi.id/layanan/erbyorganizing"
+            ><i class="fas fa-clipboard-check"></i
+          ></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="https://youtube.com/@ErbyOrganizing?si=kFeSEGoXJe0kFX9S"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Link Js -->
+    <script src="../script.js"></script>
+  </body>
 </html>
 
 <!-- https://wa.me/6282316857460?text=Nama Produk Demo06 %3A%0ANama Kedua Mempelai%3A%0ANama Kedua Orang Tua%3A%0ATempat/Pukul/Acara%3A%0ARequest Lagu%3A%0AFoto Atau Karakter%3A -->
